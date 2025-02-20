@@ -1,4 +1,4 @@
-# Web Recon Tool 🕵️‍♂️
+# Automated web application recon Tool 🕵️‍♂️
 
 A powerful and efficient web reconnaissance tool for gathering information about a target domain. This tool performs subdomain enumeration, DNS and WHOIS lookups, technology detection, network footprinting, and OSINT data collection.
 

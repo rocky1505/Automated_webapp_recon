@@ -1,35 +1,20 @@
-# Automated_webapp_recon
-An automated Web application reconnaissance tool
+# Web Recon Tool 🕵️‍♂️
 
-This was created as a part of my VAPT project, i hope to i prove it, and make it a more in-depth tool
-🚀 Features
-🔍 Subdomain Enumeration – Finds subdomains using brute-force techniques.
-🌐 DNS & WHOIS Lookups – Retrieves DNS records and WHOIS registration data.
-🛠 Technology Detection – Identifies web technologies from HTTP headers.
-📡 Network Footprinting – Performs reverse IP lookup and ASN retrieval.
-🕵️ OSINT (Open-Source Intelligence) – Searches for social media accounts linked to the target.
-📊 Rich Console Output – Displays results in a structured format with Rich CLI styling.
-💾 JSON Output – Saves findings to a recon_results.json file.
-⚙️ Installation
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/web-recon-tool.git
-cd web-recon-tool
-pip install -r requirements.txt
-🔧 Usage
-bash
-Copy
-Edit
-python recon.py
-Enter the target domain when prompted. The tool will perform reconnaissance and save results in recon_results.json.
+A powerful and efficient web reconnaissance tool for gathering information about a target domain. This tool performs subdomain enumeration, DNS and WHOIS lookups, technology detection, network footprinting, and OSINT data collection.
 
-🏗 Dependencies
-requests
-concurrent.futures
-dns.resolver
-whois
-socket
-beautifulsoup4
-tqdm
-rich
+## 🚀 Features
+
+- **Subdomain Enumeration** - Brute-force subdomains using a wordlist.
+- **DNS & WHOIS Lookups** - Retrieve DNS records and WHOIS information.
+- **Technology Detection** - Identify web server and technology stack.
+- **Network Footprinting** - Perform reverse IP lookup and ASN information retrieval.
+- **OSINT Gathering** - Extract social media accounts related to the domain.
+- **Beautiful Output** - Uses `rich` for structured and colorized console output.
+- **Multi-threaded Execution** - Improves speed and efficiency.
+
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/rocky1505/Automated_webapp_recon.git
+   cd Automated_webapp_recon

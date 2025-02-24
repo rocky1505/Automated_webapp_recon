@@ -1,20 +1,29 @@
-# Automated web application recon Tool 🕵️‍♂️
+# WebPenAut - Automated Web Reconnaissance  
 
-A powerful and efficient web reconnaissance tool for gathering information about a target domain. This tool performs subdomain enumeration, DNS and WHOIS lookups, technology detection, network footprinting, and OSINT data collection.
+**WebPenAut** is an automated web reconnaissance tool for penetration testers. It performs **subdomain enumeration, port scanning, service detection, and directory brute-forcing**, storing results in JSON format.  
 
-## 🚀 Features
+## 🚀 Features  
+- **Subdomain Enumeration** (Recursive)  
+- **Port Scanning & Service Detection** (Nmap)  
+- **Zone Transfer Analysis**  
+- **Directory Bruteforcing** (Gobuster)  
+- **Live Subdomain Checking** (HTTPX)
+- **DNS & WHOIS Lookups**  
+- **Service Detection & Port Scanning** (Nmap)  
+- **Technology Fingerprinting** (WhatWeb)  
+- **Web Application Firewall Detection** (wafw00f)  
+- **Reverse IP Lookup & ASN Info**  
+ 
 
-- **Subdomain Enumeration** - Brute-force subdomains using a wordlist.
-- **DNS & WHOIS Lookups** - Retrieve DNS records and WHOIS information.
-- **Technology Detection** - Identify web server and technology stack.
-- **Network Footprinting** - Perform reverse IP lookup and ASN information retrieval.
-- **OSINT Gathering** - Extract social media accounts related to the domain.
-- **Beautiful Output** - Uses `rich` for structured and colorized console output.
-- **Multi-threaded Execution** - Improves speed and efficiency.
-
-## 🛠️ Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/rocky1505/Automated_webapp_recon.git
-   cd Automated_webapp_recon
+## 🛠️ Installation  
+```bash
+git clone https://github.com/rocky1505/Automated_webapp_recon.git  
+cd Automated_webapp_recon
+```
+## USAGE
+```bash
+python3 webpenaut.py -u <target_domain>       
+python3 webpenaut.py -r recon -u <target_domain>  # for specifically recon alone
+```
+⚠️ Disclaimer
+Entire run may take from 5 to 10 mins
